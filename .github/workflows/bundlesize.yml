@@ -12,6 +12,6 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org/
       - name: Install dependencies
-        run: npm install
+        run: yarn
       - name: Bundlesize Watcher
         uses: juan-fernandez/bundlesize-watcher@master
