@@ -16,7 +16,7 @@ jobs:
       - name: Bundlesize Watcher
         uses: juan-fernandez/bundlesize-watcher@master
         with:
-          event: ${{GITHUB_EVENT_NAME}}
+          event: ${{$GITHUB_EVENT_NAME}}
           sha: ${{$GITHUB_SHA}}
           branch: ${GITHUB_REF}
           configFile: bundlewatcher.json
