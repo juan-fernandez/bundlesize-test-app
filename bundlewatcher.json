@@ -1,0 +1,7 @@
+[
+  {
+    "name": "main chunk",
+    "file": "./build/static/js/main.*.chunk.js",
+    "maxSize": "1 kB"
+  }
+]

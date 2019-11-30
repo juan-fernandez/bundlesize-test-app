@@ -19,3 +19,4 @@ jobs:
           event: $GITHUB_EVENT_NAME
           sha: $GITHUB_SHA
           branch: $GITHUB_REF
+          configFile: bundlewatcher.json
