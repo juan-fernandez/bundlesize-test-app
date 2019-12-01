@@ -16,4 +16,4 @@ jobs:
       - name: Bundlesize Watcher
         uses: juan-fernandez/bundlesize-watcher@master
         with:
-          configFile: bundlewatcher.json
+          configFilePath: ./bundlewatcher.json
