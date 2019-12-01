@@ -17,3 +17,4 @@ jobs:
         uses: juan-fernandez/bundlesize-watcher@master
         with:
           configFilePath: ./bundlewatcher.json
+          myToken: ${{ secrets.GITHUB_TOKEN }}
